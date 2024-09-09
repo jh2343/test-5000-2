@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Header",
+    "section": "",
+    "text": "Functionally, Quarto (.qmd) is very similar to Jupyter notebooks (.ipynb) or Rmarkdown (.rmd). It easily integrates with VS-code or other text editors. However, typically jupyter notebooks rendered in .html tend to be aesthetically lacking (i.e. ugly). Quarto allows you to create more professional and better looking documents. You can think of it as a generalization of .ipynb with added functionality on top (i.e. better internal and external cross-referencing, bib-tex integration, better document theming, etc). Outputs of .qmd can also be much more interactive, which we will utilize more heavily in DSAN-5300.\n\\(g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\)"
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "Header",
+    "section": "Header-2",
+    "text": "Header-2\n\nThis is an example of a bulleted list with math\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)\n\n\\[g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\]\nAbout this site\n\nimport seaborn as sns\ntips = sns.load_dataset(\"tips\")\nsns.catplot(data=tips, x=\"day\", y=\"total_bill\")\n\n/Users/james/miniforge3/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.\n  with pd.option_context('mode.use_inf_as_na', True):\n/Users/james/miniforge3/lib/python3.10/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.\n  with pd.option_context('mode.use_inf_as_na', True):\n/Users/james/miniforge3/lib/python3.10/site-packages/seaborn/_oldcore.py:1075: FutureWarning: When grouping with a length-1 list-like, you will need to pass a length-1 tuple to get_group in a future version of pandas. Pass `(name,)` instead of `name` to silence this warning.\n  data_subset = grouped_data.get_group(pd_key)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

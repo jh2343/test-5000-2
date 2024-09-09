@@ -1,4 +1,14 @@
 
+home_path=${PWD}
+
+cd website
+rm -rf _site
+quarto render 
+cd $home_path
+
+
+
+
 printf 'Would you like to sync with the github server: (y/n)?'
 read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then 
