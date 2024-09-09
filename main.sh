@@ -6,7 +6,7 @@ rm -rf _site
 quarto render 
 
 #deploy
-rsync -alrv _site/* jfhgeorg@gtown.reclaimhosting.com:/home/jfhgeorg/public_html/
+rsync -alrv _site jfhgeorg@gtown.reclaimhosting.com:/home/jfhgeorg/public_html/
 
 
 cd $home_path
